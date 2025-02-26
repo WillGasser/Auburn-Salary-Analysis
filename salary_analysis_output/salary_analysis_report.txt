@@ -1,0 +1,265 @@
+## SALARY ANALYSIS REPORT
+
+Analysis Date: 2025-02-26
+
+
+
+# OVERALL SALARY STATISTICS
+Dataset contains 6793 employees across 451 departments with 2133 unique job titles.
+
+## Central Tendency and Dispersion
+Mean Salary: $87,376.37
+Median Salary: $73,670.00
+Standard Deviation: $54,507.33
+Minimum Salary: $28,100.00
+Maximum Salary: $832,500.00
+Salary Range: $804,400.00
+
+## Quartile Analysis
+25th Percentile (Q1): $52,460.00
+75th Percentile (Q3): $102,300.00
+Interquartile Range (IQR): $49,840.00
+
+## Distribution Shape
+Skewness: 2.8891
+The salary distribution is highly positively skewed (right-tailed).
+Kurtosis: 15.4562
+The distribution is leptokurtic (heavy-tailed with more outliers).
+
+The mean salary ($87,376.37) is substantially higher than the median ($73,670.00), with a ratio of 1.19. This indicates the presence of high-value outliers pulling the mean upward.
+
+[Insert Figure: salary_distribution.png]
+Figure 1: Overall distribution of salaries showing the mean and median values.
+
+# DEPARTMENT SALARY ANALYSIS
+Analysis of salaries across 451 different departments.
+
+## Department Size Statistics
+Average Department Size: 15.1 employees
+Median Department Size: 7.0 employees
+Largest Department: Athletic Department Admin with 351 employees
+
+## Highest Paying Departments
+Top 10 departments by average salary:
+1. Office of the President: $295,616.67 (n=6.0, range: $67,900-$832,500)
+2. Real Estate & Property Dvlmt: $295,270.00 (n=1.0, range: $295,270-$295,270)
+3. SVP-Business & Admin & CFO: $286,966.67 (n=3.0, range: $93,600-$569,700)
+4. Controller's Office: $273,290.00 (n=1.0, range: $273,290-$273,290)
+5. Federal Government Relations: $262,600.00 (n=1.0, range: $262,600-$262,600)
+6. Forestry & Wildlife Sci Admin: $254,420.00 (n=2.0, range: $138,700-$370,140)
+7. AU Huntsville Research Ctr: $246,837.50 (n=4.0, range: $109,080-$405,000)
+8. Secretary to Board of Trustees: $245,090.00 (n=3.0, range: $58,700-$519,190)
+9. AVP, Admin Effectiveness: $242,765.00 (n=2.0, range: $176,800-$308,730)
+10. SVPLegalAffairs&GeneralCounsel: $222,091.67 (n=6.0, range: $76,120-$564,700)
+
+## Lowest Paying Departments
+Bottom 10 departments by average salary:
+1. Warhawk Academic Success Ctr: $43,170.00 (n=3.0, range: $37,300-$51,410)
+2. Military Science: $43,030.00 (n=1.0, range: $43,030-$43,030)
+3. Stdnt Involvement & Leadership: $41,809.67 (n=3.0, range: $40,019-$43,610)
+4. Facilities AUM: $41,464.29 (n=14.0, range: $31,200-$101,000)
+5. Theatre Operations: $40,985.00 (n=2.0, range: $33,910-$48,060)
+6. Harris Early Learning Ctr Oper: $40,934.82 (n=49.0, range: $32,000-$76,290)
+7. Employee Pharmacy: $40,850.00 (n=2.0, range: $37,500-$44,200)
+8. Floor Maintenance: $36,708.00 (n=5.0, range: $31,620-$38,060)
+9. Office of Admission Processing: $35,925.00 (n=4.0, range: $32,600-$40,010)
+10. Building Services: $35,253.33 (n=30.0, range: $31,200-$71,400)
+
+## Departments with Highest Salary Variation
+Top 10 departments by coefficient of variation (CV = std/mean):
+1. University Veterinarian: CV=115.75% (n=3.0, mean=$96,410.00, std=$111,598.76)
+2. Chancellor's Office: CV=108.65% (n=6.0, mean=$141,863.33, std=$154,128.03)
+3. Contract Services: CV=107.38% (n=3.0, mean=$157,303.33, std=$168,915.85)
+4. Office of the Provost: CV=105.52% (n=22.0, mean=$66,001.36, std=$69,646.94)
+5. College of Nursing & Health Sc: CV=103.58% (n=6.0, mean=$78,590.00, std=$81,405.79)
+6. Office of the President: CV=101.74% (n=6.0, mean=$295,616.67, std=$300,760.11)
+7. Secretary to Board of Trustees: CV=98.92% (n=3.0, mean=$245,090.00, std=$242,451.11)
+8. Nursing Administration: CV=98.43% (n=11.0, mean=$95,935.45, std=$94,428.71)
+9. CIO-VP IT and  IT Admin: CV=93.60% (n=9.0, mean=$125,048.89, std=$117,041.73)
+10. Asc Provost & VP Univ Outreach: CV=92.06% (n=6.0, mean=$128,568.33, std=$118,357.31)
+
+## Relationship between Department Size and Salary
+Correlation coefficient: r = 0.0362 (p-value: 0.4432)
+There is no significant correlation between department size and average salary (r = 0.0362, p = 0.4432).
+
+[Insert Figure: department_boxplots.png]
+Figure 2: Box plots showing the distribution of salaries across the top departments.
+
+[Insert Figure: department_mean_salaries.png]
+Figure 3: Bar chart of mean salaries by department.
+
+[Insert Figure: department_variance.png]
+Figure 4: Departments ranked by salary variation (coefficient of variation).
+
+[Insert Figure: dept_size_salary_correlation.png]
+Figure 5: Scatter plot showing the relationship between department size and average salary.
+
+# JOB TITLE SALARY ANALYSIS
+Analysis of salaries across 2133 different job titles.
+
+## Job Title Frequency Statistics
+Average number of employees per title: 3.2
+Median number of employees per title: 1.0
+Most common job title: Associate Professor with 404 employees
+
+## Highest Paying Job Titles
+Top 10 job titles by average salary:
+1. President: $832,500.00 (n=1.0, range: $832,500-$832,500)
+2. Provost & SVP Academic Affairs: $606,630.00 (n=1.0, range: $606,630-$606,630)
+3. SVP, Business & Administration & Chief Financial Officer: $569,700.00 (n=1.0, range: $569,700-$569,700)
+4. SVP, Legal Affairs & General Counsel: $564,700.00 (n=1.0, range: $564,700-$564,700)
+5. Sec to the Board of Trustees: $519,190.00 (n=1.0, range: $519,190-$519,190)
+6. SVP, Research & Economic Development: $498,750.00 (n=1.0, range: $498,750-$498,750)
+7. Dean and Wells Fargo Professor: $478,400.00 (n=1.0, range: $478,400-$478,400)
+8. Deputy AD, Tigers Unlimited: $477,530.00 (n=1.0, range: $477,530-$477,530)
+9. Chief of Staff: $466,500.00 (n=1.0, range: $466,500-$466,500)
+10. SVP, Student Affairs: $451,500.00 (n=1.0, range: $451,500-$451,500)
+
+## Lowest Paying Job Titles
+Bottom 10 job titles by average salary (with at least 5 employees):
+1. Rep II, Parking Services: $36,018.57 (n=7.0, range: $34,830-$37,870)
+2. Tech III, Agriculture: $35,688.00 (n=14.0, range: $34,320-$37,360)
+3. Asst II, Veterinary: $35,556.67 (n=9.0, range: $33,860-$36,990)
+4. Administrative Associate: $35,388.90 (n=20.0, range: $31,158-$41,520)
+5. Program Associate: $35,008.00 (n=5.0, range: $33,740-$38,200)
+6. Tech II, Ag-Vet Med: $34,461.67 (n=6.0, range: $33,550-$35,970)
+7. Tech II, Agriculture: $33,897.50 (n=8.0, range: $32,760-$35,860)
+8. Groundskeeper: $33,490.00 (n=11.0, range: $31,200-$37,320)
+9. Bldg Specialist I: $33,350.00 (n=6.0, range: $31,200-$36,060)
+10. Custodian: $32,861.74 (n=23.0, range: $31,200-$35,380)
+
+## Job Titles with Highest Salary Variation
+Top 10 job titles by coefficient of variation (CV = std/mean, with at least 5 employees):
+1. Athletic Staff Member: CV=65.38% (n=104.0, mean=$156,521.52, std=$102,337.43)
+2. Athletic Staff Member - Ops: CV=57.61% (n=59.0, mean=$95,953.22, std=$55,282.29)
+3. Director: CV=48.46% (n=14.0, mean=$91,364.29, std=$44,275.56)
+4. Clinical Lecturer: CV=44.03% (n=5.0, mean=$76,818.00, std=$33,825.58)
+5. Asst Prof: CV=40.63% (n=32.0, mean=$100,606.25, std=$40,874.12)
+6. Professor of Practice: CV=37.44% (n=16.0, mean=$103,508.75, std=$38,755.85)
+7. Associate Research Professor: CV=35.44% (n=8.0, mean=$120,776.25, std=$42,805.68)
+8. Prof of Practice: CV=35.24% (n=9.0, mean=$138,491.11, std=$48,797.74)
+9. Assistant Professor: CV=33.35% (n=265.0, mean=$95,393.28, std=$31,815.22)
+10. Lecturer: CV=33.27% (n=161.0, mean=$64,836.09, std=$21,572.27)
+
+[Insert Figure: title_boxplots.png]
+Figure 6: Box plots showing the distribution of salaries across the top job titles.
+
+[Insert Figure: title_mean_salaries.png]
+Figure 7: Bar chart of mean salaries by job title.
+
+[Insert Figure: title_variance.png]
+Figure 8: Job titles ranked by salary variation (coefficient of variation).
+
+# TITLE-DEPARTMENT RELATIONSHIP ANALYSIS
+Analysis of how salaries for the same job title vary across different departments.
+
+## Cross-Department Title Comparison
+How the same job titles are compensated differently across departments:
+
+### Assistant Professor (appears in 57 departments)
+Highest average salary: $254,000.00 in Finance
+Lowest average salary: $53,615.00 in Dept of Communication &Theatre
+Salary variation: 373.7% difference between highest and lowest
+
+### Associate Professor (appears in 67 departments)
+Highest average salary: $246,065.00 in Finance
+Lowest average salary: $64,680.00 in English and Philosophy
+Salary variation: 280.4% difference between highest and lowest
+
+### Professor (appears in 59 departments)
+Highest average salary: $277,472.50 in Finance
+Lowest average salary: $77,225.00 in Sociology
+Salary variation: 259.3% difference between highest and lowest
+
+### Lecturer (appears in 35 departments)
+Highest average salary: $123,420.00 in Finance
+Lowest average salary: $38,885.00 in Dept of Communication &Theatre
+Salary variation: 217.4% difference between highest and lowest
+
+### Postdoctoral Fellow (appears in 23 departments)
+Highest average salary: $87,070.00 in RFID Lab at Auburn University
+Lowest average salary: $45,000.00 in Clinical Affairs and Outreach
+Salary variation: 93.5% difference between highest and lowest
+
+[Insert Figure: title_dept_heatmap.png]
+Figure 9: Heatmap showing average salaries by department and title combinations.
+
+[Insert Figure: title_department_comparison.png]
+Figure 10: Comparison of how the same job titles are compensated across different departments.
+
+# SALARY OUTLIER ANALYSIS
+Analysis of salary outliers using the Interquartile Range (IQR) method.
+
+## Overall Outliers
+Total number of outliers: 419 (6.2% of all employees)
+High outliers (above $177,060.00): 419 (6.2%)
+Low outliers (below $-22,300.00): 0 (0.0%)
+
+## Extreme Values
+Top 5 highest salaries:
+1. $832,500.00 - President in Office of the President
+2. $606,630.00 - Provost & SVP Academic Affairs in Provost & VP Academic Affairs
+3. $569,700.00 - SVP, Business & Administration & Chief Financial Officer in SVP-Business & Admin & CFO
+4. $564,700.00 - SVP, Legal Affairs & General Counsel in SVPLegalAffairs&GeneralCounsel
+5. $519,190.00 - Sec to the Board of Trustees in Secretary to Board of Trustees
+
+Bottom 5 lowest salaries:
+1. $28,100.00 - Visiting Scholar in Horticulture
+2. $29,120.00 - Visiting Research Scholar in Forestry,Wildlife&Environment
+3. $31,158.00 - Administrative Associate in History & World Lang & Culture
+4. $31,200.00 - Police Dispatcher in Campus Police
+5. $31,200.00 - Tech I, Ag-Vet Med in Clinical Sciences
+
+## Departments with Most Salary Outliers
+1. Athletic Department Admin: 42 outliers (12.0% of department)
+2. Adm Business: 7 outliers (10.6% of department)
+3. Harris Early Learning Ctr Oper: 7 outliers (14.3% of department)
+4. Campus Safety and Security: 6 outliers (15.0% of department)
+5. Central Development: 6 outliers (5.0% of department)
+6. COSAM - Admin: 6 outliers (12.8% of department)
+7. Building Services: 5 outliers (16.7% of department)
+8. Engineering Adminstration: 5 outliers (4.4% of department)
+9. Information Technology: 5 outliers (4.3% of department)
+10. Human Devlmnt Family Studies: 5 outliers (5.8% of department)
+
+## Job Titles with Most Salary Outliers
+1. Postdoctoral Fellow: 34 outliers (25.2% of title)
+2. Associate Professor: 22 outliers (5.4% of title)
+3. Professor: 16 outliers (5.1% of title)
+4. Assistant Professor: 15 outliers (5.7% of title)
+5. Admin Supp Assoc II-ACES/AAES: 10 outliers (15.6% of title)
+6. Athletic Staff Member - Ops: 6 outliers (10.2% of title)
+7. Custodian: 6 outliers (26.1% of title)
+8. County Extension Director: 5 outliers (7.8% of title)
+9. Administrative Associate: 5 outliers (25.0% of title)
+10. Coord II, Business/Admin Svcs: 5 outliers (23.8% of title)
+
+[Insert Figure: outlier_analysis.png]
+Figure 11: Departments and job titles with the most salary outliers.
+
+# COMPREHENSIVE ANALYSIS AND KEY INSIGHTS
+Summary of the most important findings from the salary analysis.
+
+## Salary Overview
+The analysis examined 6793 employees across 451 departments with 2133 unique job titles.
+The average salary is $87,376.37, with a median of $73,670.00.
+Salaries range from $28,100.00 to $832,500.00, a difference of $804,400.00.
+The overall coefficient of variation is 62.4%, indicating high salary dispersion.
+
+## Extreme Groups
+Highest paid department: Office of the President ($295,616.67 average)
+Lowest paid department: Building Services ($35,253.33 average)
+Highest paid job title: President ($832,500.00 average)
+Lowest paid job title (with at least 5 employees): Custodian ($32,861.74 average)
+
+## Inequality Measures
+The ratio between the highest and lowest paid departments is 8.39.
+The ratio between the highest and lowest paid job titles (with at least 5 employees) is 25.33.
+
+## Key Insights
+There is no significant correlation (r = 0.04, p = 0.4432) between department size and average salary.
+The job title with the highest cross-department salary variation is 'Assistant Professor', with a 373.7% difference between the highest and lowest paying departments.
+The salary distribution is highly positively skewed, indicating a concentration of employees at lower salary levels with a smaller number of high earners pulling the mean upward.
+
+[Insert Figure: salary_dashboard.png]
+Figure 12: Comprehensive dashboard providing an overview of key salary metrics and relationships.
